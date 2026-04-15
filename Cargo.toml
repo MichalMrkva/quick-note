@@ -1,0 +1,13 @@
+[package]
+name = "quick-note"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "qn"
+path = "src/main.rs"
+
+[dependencies]
+rusqlite = { version = "0.31", features = ["bundled"] }
+colored = "2"
+chrono = "0.4"
